@@ -226,7 +226,7 @@ header button {
     padding-top: 8px;
   }
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 431px) {
   .hero {
     display: block;
     padding-top: 24px;
@@ -296,9 +296,51 @@ header button {
     padding-top: 10px;
   }
 }
+.cuz1 {
+  padding-top: 24px;
+}
+.cuz2 {
+  padding-top: 90px;
+}
+.cuz3 {
+  padding-top: 140px;
+}
+.subhero {
+  padding-top: 30px;
+}
 .subheroson {
   display: flex;
   padding-left: 114px;
+  padding-right: 114px;
+}
+.subheroson h4 {
+  font-family: "CircularStd";
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #272d4e;
+}
+.subherosonP {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #94a2b3;
+  text-align: center;
+}
+.subherosonP1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  color: #299ef3;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mainimage {
+  max-width: 430px;
+}
+.popimage {
+  max-width: 180px;
 }
 .subhero h3 {
   font-family: "CircularStd";
@@ -312,20 +354,460 @@ header button {
 }
 .absoimage1 {
   position: absolute;
-  left: -20px;
-  top: 45px;
+  left: -30px;
+  top: 40px;
 }
 .absoimage2 {
   position: absolute;
-  left: -100px;
-  top: 60px;
+  left: -60px;
+  top: 65px;
 }
-.imageposition2{
+.imageposition2 {
+  position: relative;
+}
+.absoimage3 {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+}
+.absoimage4 {
+  position: absolute;
+  right: 22px;
+  top: 10px;
+}
+.absoimage5 {
+  position: absolute;
+  top: 84px;
+  left: 31px;
+}
+.absoimage6 {
+  position: absolute;
+  left: 115px;
+  top: 195px;
+}
+.absoimage7 {
+  position: absolute;
+  right: 72px;
+  top: 106px;
+}
+.imageposition3 {
+  position: relative;
+}
+.absoimage8 {
+  position: absolute;
+  top: 95px;
+  right: -25px;
+}
+.absoimage9 {
+  position: absolute;
+  top: -40px;
+  left: 30px;
+}
+.absoimage10 {
+  position: absolute;
+  top: -100px;
+  right: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .cuz1 {
+    padding-top: 15px;
+  }
+  .cuz2 {
+    padding-top: 50px;
+  }
+  .cuz3 {
+    padding-top: 90px;
+  }
+  .subhero {
+    padding-top: 20px;
+  }
+  .subheroson {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .subheroson h4 {
+    font-size: 22px;
+  }
+  .subherosonP {
+    font-size: 12px;
+  }
+  .subherosonP1 {
+    font-size: 12px;
+  }
+
+  .mainimage {
+    max-width: 320px;
+  }
+  .popimage {
+    max-width: 140px;
+  }
+  .subhero h3 {
+    font-size: 34px;
+    
+  }
+  .imageposition1 {
     position: relative;
-}
-.absoimage3{
+  }
+  .absoimage1 {
     position: absolute;
+    left: -38px;
+    top: 34px;
+  }
+  .absoimage2 {
+    position: absolute;
+    left: -50px;
+    top: 72px;
+  }
+  .imageposition2 {
+    position: relative;
+  }
+  .absoimage3 {
+    position: absolute;
+    top: -30px;
+    left: 23px;
+  }
+  .absoimage4 {
+    position: absolute;
+    right: 16px;
+    top: 4px;
+  }
+  .absoimage5 {
+    position: absolute;
+    top: 60px;
+    left: 22px;
+  }
+  .absoimage6 {
+    position: absolute;
+    left: 90px;
+    top: 144px;
+  }
+  .absoimage7 {
+    position: absolute;
+    right: 54px;
+    top: 79px;
+  }
+  .imageposition3 {
+    position: relative;
+  }
+  .absoimage8 {
+    position: absolute;
+    top: 60px;
+    right: -30px;
+  }
+  .absoimage9 {
+    position: absolute;
+    top: -28px;
+    left: 20px;
+  }
+  .absoimage10 {
+    position: absolute;
+    top: -90px;
+    right: 30px;
+  }
 }
+  @media screen and (max-width: 800px) {
+    .cuz1 {
+      padding-top: 15px;
+    }
+    .cuz2 {
+      padding-top: 40px;
+    }
+    .cuz3 {
+      padding-top: 70px;
+    }
+    .subhero {
+      padding-top: 15px;
+    }
+    .subheroson {
+      display: flex;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .subheroson h4 {
+      font-size: 18px;
+    }
+    .subherosonP {
+      font-size: 10px;
+    }
+    .subherosonP1 {
+      font-size: 12px;
+    }
+  
+    .mainimage {
+      max-width: 240px;
+    }
+    .popimage {
+      max-width: 100px;
+    }
+    .subhero h3 {
+      font-size: 30px;
+      
+    }
+    .imageposition1 {
+      position: relative;
+    }
+    .absoimage1 {
+      position: absolute;
+      left: -42px;
+      top: 26px;
+    }
+    .absoimage2 {
+      position: absolute;
+      left: -30px;
+      top: 60px;
+    }
+    .imageposition2 {
+      position: relative;
+    }
+    .absoimage3 {
+      position: absolute;
+      top: -20px;
+      left: 20px;
+    }
+    .absoimage4 {
+      position: absolute;
+      right: 16px;
+      top: 5px;
+    }
+    .absoimage5 {
+      position: absolute;
+      top: 48px;
+      left: 20px;
+    }
+    .absoimage6 {
+      position: absolute;
+      left: 66px;
+      top: 110px;
+    }
+    .absoimage7 {
+      position: absolute;
+      right: 42px;
+      top: 60px;
+    }
+    .imageposition3 {
+      position: relative;
+    }
+    .absoimage8 {
+      position: absolute;
+      top: 60px;
+      right: -20px;
+    }
+    .absoimage9 {
+      position: absolute;
+      top: -18px;
+      left: 14px;
+    }
+    .absoimage10 {
+      position: absolute;
+      top: -60px;
+      right: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    /* .subheroson h4{
+        text-align: none;
 
+    } */
+    .cuz1 {
+      padding-top: 15px;
+    }
+    .cuz2 {
+      padding-top: 40px;
+    }
+    .cuz3 {
+      padding-top: 120px;
+    }
+    .subhero {
+      padding-top: 15px;
+    }
+    .subheroson {
+      display: block;
+      padding-left: 150px;
+      padding-right: 150px;
 
+    }
+    .subheroson h4 {
+      font-size: 18px;
+    }
+    .subherosonP {
+      font-size: 10px;
+    }
+    .subherosonP1 {
+      font-size: 12px;
+    }
+  
+    .mainimage {
+      max-width: 430px;
+    }
+    .popimage {
+      max-width: 200px;
+    }
+    .subhero h3 {
+      font-size: 30px;
+      
+    }
+    .imageposition1 {
+      position: relative;
+    }
+    .absoimage1 {
+      position: absolute;
+      left: -28px;
+      top: 58px;
+    }
+    .absoimage2 {
+      position: absolute;
+      left: -60px;
+      top: 90px;
+    }
+    .imageposition2 {
+      position: relative;
+    }
+    .absoimage3 {
+      position: absolute;
+      top: -45px;
+      left: 26px;
+    }
+    .absoimage4 {
+      position: absolute;
+      right: 60px;
+      top: 15px;
+    }
+    .absoimage5 {
+      position: absolute;
+      top: 75px;
+      left: 31px;
+    }
+    .absoimage6 {
+      position: absolute;
+      left: 105px;
+      top: 195px;
+    }
+    .absoimage7 {
+      position: absolute;
+      right: 100px;
+      top: 104px;
+    }
+    .imageposition3 {
+      position: relative;
+    }
+    .absoimage8 {
+      position: absolute;
+      top: 100px;
+      right: -10px;
+    }
+    .absoimage9 {
+      position: absolute;
+      top: -40px;
+      left: 27px;
+    }
+    .absoimage10 {
+      position: absolute;
+      top: -110px;
+      right: 60px;
+    }
+  }
+  @media screen and (max-width: 431px) {
+    /* .subheroson h4{
+        text-align: none;
 
+    } */
+    .cuz1 {
+      padding-top: 10px;
+    }
+    .cuz2 {
+      padding-top: 30px;
+    }
+    .cuz3 {
+      padding-top: 100px;
+    }
+    .subhero {
+      padding-top: 15px;
+    }
+    .subheroson {
+      display: block;
+      padding-left: 50px;
+      padding-right: 25px;
+
+    }
+    .subheroson h4 {
+      font-size: 18px;
+    }
+    .subherosonP {
+      font-size: 10px;
+    }
+    .subherosonP1 {
+      font-size: 12px;
+    }
+  
+    .mainimage {
+      max-width: 330px;
+    }
+    .popimage {
+      max-width: 130px;
+    }
+    .subhero h3 {
+      font-size: 30px;
+      
+    }
+    .imageposition1 {
+      position: relative;
+    }
+    .absoimage1 {
+      position: absolute;
+      left: -28px;
+      top: 58px;
+    }
+    .absoimage2 {
+      position: absolute;
+      left: -60px;
+      top: 90px;
+    }
+    .imageposition2 {
+      position: relative;
+    }
+    .absoimage3 {
+      position: absolute;
+      top: -45px;
+      left: 26px;
+    }
+    .absoimage4 {
+      position: absolute;
+      right: 60px;
+      top: 15px;
+    }
+    .absoimage5 {
+      position: absolute;
+      top: 75px;
+      left: 31px;
+    }
+    .absoimage6 {
+      position: absolute;
+      left: 105px;
+      top: 195px;
+    }
+    .absoimage7 {
+      position: absolute;
+      right: 100px;
+      top: 104px;
+    }
+    .imageposition3 {
+      position: relative;
+    }
+    .absoimage8 {
+      position: absolute;
+      top: 100px;
+      right: -10px;
+    }
+    .absoimage9 {
+      position: absolute;
+      top: -40px;
+      left: 27px;
+    }
+    .absoimage10 {
+      position: absolute;
+      top: -110px;
+      right: 60px;
+    }
+  }
+  
