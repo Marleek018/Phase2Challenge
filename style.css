@@ -444,7 +444,6 @@ header button {
   }
   .subhero h3 {
     font-size: 34px;
-    
   }
   .imageposition1 {
     position: relative;
@@ -506,543 +505,630 @@ header button {
     right: 30px;
   }
 }
-  @media screen and (max-width: 800px) {
-    .cuz1 {
-      padding-top: 15px;
-    }
-    .cuz2 {
-      padding-top: 40px;
-    }
-    .cuz3 {
-      padding-top: 70px;
-    }
-    .subhero {
-      padding-top: 15px;
-    }
-    .subheroson {
-      display: flex;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-    .subheroson h4 {
-      font-size: 18px;
-    }
-    .subherosonP {
-      font-size: 10px;
-    }
-    .subherosonP1 {
-      font-size: 12px;
-    }
-  
-    .mainimage {
-      max-width: 240px;
-    }
-    .popimage {
-      max-width: 100px;
-    }
-    .subhero h3 {
-      font-size: 30px;
-      
-    }
-    .imageposition1 {
-      position: relative;
-    }
-    .absoimage1 {
-      position: absolute;
-      left: -42px;
-      top: 26px;
-    }
-    .absoimage2 {
-      position: absolute;
-      left: -30px;
-      top: 60px;
-    }
-    .imageposition2 {
-      position: relative;
-    }
-    .absoimage3 {
-      position: absolute;
-      top: -20px;
-      left: 20px;
-    }
-    .absoimage4 {
-      position: absolute;
-      right: 16px;
-      top: 5px;
-    }
-    .absoimage5 {
-      position: absolute;
-      top: 48px;
-      left: 20px;
-    }
-    .absoimage6 {
-      position: absolute;
-      left: 66px;
-      top: 110px;
-    }
-    .absoimage7 {
-      position: absolute;
-      right: 42px;
-      top: 60px;
-    }
-    .imageposition3 {
-      position: relative;
-    }
-    .absoimage8 {
-      position: absolute;
-      top: 60px;
-      right: -20px;
-    }
-    .absoimage9 {
-      position: absolute;
-      top: -18px;
-      left: 14px;
-    }
-    .absoimage10 {
-      position: absolute;
-      top: -60px;
-      right: 20px;
-    }
+@media screen and (max-width: 800px) {
+  .cuz1 {
+    padding-top: 15px;
   }
-  @media screen and (max-width: 768px) {
-    /* .subheroson h4{
+  .cuz2 {
+    padding-top: 40px;
+  }
+  .cuz3 {
+    padding-top: 70px;
+  }
+  .subhero {
+    padding-top: 15px;
+  }
+  .subheroson {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .subheroson h4 {
+    font-size: 18px;
+  }
+  .subherosonP {
+    font-size: 10px;
+  }
+  .subherosonP1 {
+    font-size: 12px;
+  }
+
+  .mainimage {
+    max-width: 240px;
+  }
+  .popimage {
+    max-width: 100px;
+  }
+  .subhero h3 {
+    font-size: 30px;
+  }
+  .imageposition1 {
+    position: relative;
+  }
+  .absoimage1 {
+    position: absolute;
+    left: -42px;
+    top: 26px;
+  }
+  .absoimage2 {
+    position: absolute;
+    left: -30px;
+    top: 60px;
+  }
+  .imageposition2 {
+    position: relative;
+  }
+  .absoimage3 {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+  }
+  .absoimage4 {
+    position: absolute;
+    right: 16px;
+    top: 5px;
+  }
+  .absoimage5 {
+    position: absolute;
+    top: 48px;
+    left: 20px;
+  }
+  .absoimage6 {
+    position: absolute;
+    left: 66px;
+    top: 110px;
+  }
+  .absoimage7 {
+    position: absolute;
+    right: 42px;
+    top: 60px;
+  }
+  .imageposition3 {
+    position: relative;
+  }
+  .absoimage8 {
+    position: absolute;
+    top: 60px;
+    right: -20px;
+  }
+  .absoimage9 {
+    position: absolute;
+    top: -18px;
+    left: 14px;
+  }
+  .absoimage10 {
+    position: absolute;
+    top: -60px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* .subheroson h4{
         text-align: none;
 
     } */
-    .cuz1 {
-      padding-top: 15px;
-    }
-    .cuz2 {
-      padding-top: 40px;
-    }
-    .cuz3 {
-      padding-top: 120px;
-    }
-    .subhero {
-      padding-top: 15px;
-    }
-    .subheroson {
-      display: block;
-      padding-left: 150px;
-      padding-right: 150px;
-
-    }
-    .subheroson h4 {
-      font-size: 18px;
-    }
-    .subherosonP {
-      font-size: 10px;
-    }
-    .subherosonP1 {
-      font-size: 12px;
-    }
-  
-    .mainimage {
-      max-width: 430px;
-    }
-    .popimage {
-      max-width: 200px;
-    }
-    .subhero h3 {
-      font-size: 30px;
-      
-    }
-    .imageposition1 {
-      position: relative;
-    }
-    .absoimage1 {
-      position: absolute;
-      left: -28px;
-      top: 58px;
-    }
-    .absoimage2 {
-      position: absolute;
-      left: -60px;
-      top: 90px;
-    }
-    .imageposition2 {
-      position: relative;
-    }
-    .absoimage3 {
-      position: absolute;
-      top: -45px;
-      left: 26px;
-    }
-    .absoimage4 {
-      position: absolute;
-      right: 60px;
-      top: 15px;
-    }
-    .absoimage5 {
-      position: absolute;
-      top: 75px;
-      left: 31px;
-    }
-    .absoimage6 {
-      position: absolute;
-      left: 105px;
-      top: 195px;
-    }
-    .absoimage7 {
-      position: absolute;
-      right: 100px;
-      top: 104px;
-    }
-    .imageposition3 {
-      position: relative;
-    }
-    .absoimage8 {
-      position: absolute;
-      top: 100px;
-      right: -10px;
-    }
-    .absoimage9 {
-      position: absolute;
-      top: -40px;
-      left: 27px;
-    }
-    .absoimage10 {
-      position: absolute;
-      top: -110px;
-      right: 60px;
-    }
+  .cuz1 {
+    padding-top: 15px;
   }
-  @media screen and (max-width: 431px) {
-    /* .subheroson h4{
+  .cuz2 {
+    padding-top: 40px;
+  }
+  .cuz3 {
+    padding-top: 120px;
+  }
+  .subhero {
+    padding-top: 15px;
+  }
+  .subheroson {
+    display: block;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .subheroson h4 {
+    font-size: 18px;
+  }
+  .subherosonP {
+    font-size: 10px;
+  }
+  .subherosonP1 {
+    font-size: 12px;
+  }
+
+  .mainimage {
+    max-width: 430px;
+  }
+  .popimage {
+    max-width: 200px;
+  }
+  .subhero h3 {
+    font-size: 30px;
+  }
+  .imageposition1 {
+    position: relative;
+  }
+  .absoimage1 {
+    position: absolute;
+    left: -28px;
+    top: 58px;
+  }
+  .absoimage2 {
+    position: absolute;
+    left: -60px;
+    top: 90px;
+  }
+  .imageposition2 {
+    position: relative;
+  }
+  .absoimage3 {
+    position: absolute;
+    top: -45px;
+    left: 26px;
+  }
+  .absoimage4 {
+    position: absolute;
+    right: 60px;
+    top: 15px;
+  }
+  .absoimage5 {
+    position: absolute;
+    top: 75px;
+    left: 31px;
+  }
+  .absoimage6 {
+    position: absolute;
+    left: 105px;
+    top: 195px;
+  }
+  .absoimage7 {
+    position: absolute;
+    right: 100px;
+    top: 104px;
+  }
+  .imageposition3 {
+    position: relative;
+  }
+  .absoimage8 {
+    position: absolute;
+    top: 100px;
+    right: -10px;
+  }
+  .absoimage9 {
+    position: absolute;
+    top: -40px;
+    left: 27px;
+  }
+  .absoimage10 {
+    position: absolute;
+    top: -110px;
+    right: 60px;
+  }
+}
+@media screen and (max-width: 431px) {
+  /* .subheroson h4{
         text-align: none;
 
     } */
-    .cuz1 {
-      padding-top: 10px;
-    }
-    .cuz2 {
-      padding-top: 30px;
-    }
-    .cuz3 {
-      padding-top: 100px;
-    }
-    .subhero {
-      padding-top: 15px;
-    }
-    .subheroson {
-      display: block;
-      padding-left: 50px;
-      padding-right: 25px;
-
-    }
-    .subheroson h4 {
-      font-size: 18px;
-    }
-    .subherosonP {
-      font-size: 10px;
-    }
-    .subherosonP1 {
-      font-size: 12px;
-    }
-  
-    .mainimage {
-      max-width: 330px;
-    }
-    .popimage {
-      max-width: 130px;
-    }
-    .subhero h3 {
-      font-size: 30px;
-      
-    }
-    .imageposition1 {
-      position: relative;
-    }
-    .absoimage1 {
-      position: absolute;
-      left: -40px;
-      top: 35px;
-    }
-    .absoimage2 {
-      position: absolute;
-      left: -40px;
-      top: 90px;
-    }
-    .imageposition2 {
-      position: relative;
-    }
-    .absoimage3 {
-      position: absolute;
-      top: -24px;
-      left: 30px;
-    }
-    .absoimage4 {
-      position: absolute;
-      right: 42px;
-      top: 12px;
-    }
-    .absoimage5 {
-      position: absolute;
-      top: 65px;
-      left: 30px;
-    }
-    .absoimage6 {
-      position: absolute;
-      left: 90px;
-      top: 154px;
-    }
-    .absoimage7 {
-      position: absolute;
-      right: 80px;
-      top: 84px;
-    }
-    .imageposition3 {
-      position: relative;
-    }
-    .absoimage8 {
-      position: absolute;
-      top: 70px;
-      right: -5px;
-    }
-    .absoimage9 {
-      position: absolute;
-      top: -20px;
-      left: 24px;
-    }
-    .absoimage10 {
-      position: absolute;
-      top: -70px;
-      right: 40px;
-    }
+  .cuz1 {
+    padding-top: 10px;
   }
-  @media screen and (max-width: 376px) {
-    /* .subheroson h4{
+  .cuz2 {
+    padding-top: 30px;
+  }
+  .cuz3 {
+    padding-top: 100px;
+  }
+  .subhero {
+    padding-top: 15px;
+  }
+  .subheroson {
+    display: block;
+    padding-left: 50px;
+    padding-right: 25px;
+  }
+  .subheroson h4 {
+    font-size: 18px;
+  }
+  .subherosonP {
+    font-size: 10px;
+  }
+  .subherosonP1 {
+    font-size: 12px;
+  }
+
+  .mainimage {
+    max-width: 330px;
+  }
+  .popimage {
+    max-width: 130px;
+  }
+  .subhero h3 {
+    font-size: 30px;
+  }
+  .imageposition1 {
+    position: relative;
+  }
+  .absoimage1 {
+    position: absolute;
+    left: -40px;
+    top: 35px;
+  }
+  .absoimage2 {
+    position: absolute;
+    left: -40px;
+    top: 90px;
+  }
+  .imageposition2 {
+    position: relative;
+  }
+  .absoimage3 {
+    position: absolute;
+    top: -24px;
+    left: 30px;
+  }
+  .absoimage4 {
+    position: absolute;
+    right: 42px;
+    top: 12px;
+  }
+  .absoimage5 {
+    position: absolute;
+    top: 65px;
+    left: 30px;
+  }
+  .absoimage6 {
+    position: absolute;
+    left: 90px;
+    top: 154px;
+  }
+  .absoimage7 {
+    position: absolute;
+    right: 80px;
+    top: 84px;
+  }
+  .imageposition3 {
+    position: relative;
+  }
+  .absoimage8 {
+    position: absolute;
+    top: 70px;
+    right: -5px;
+  }
+  .absoimage9 {
+    position: absolute;
+    top: -20px;
+    left: 24px;
+  }
+  .absoimage10 {
+    position: absolute;
+    top: -70px;
+    right: 40px;
+  }
+}
+@media screen and (max-width: 376px) {
+  /* .subheroson h4{
         text-align: none;
 
     } */
-    .cuz1 {
-      padding-top: 10px;
-    }
-    .cuz2 {
-      padding-top: 30px;
-    }
-    .cuz3 {
-      padding-top: 100px;
-    }
-    .subhero {
-      padding-top: 15px;
-    }
-    .subheroson {
-      display: block;
-      padding-left: 30px;
-      padding-right: 25px;
+  .cuz1 {
+    padding-top: 10px;
+  }
+  .cuz2 {
+    padding-top: 30px;
+  }
+  .cuz3 {
+    padding-top: 100px;
+  }
+  .subhero {
+    padding-top: 15px;
+  }
+  .subheroson {
+    display: block;
+    padding-left: 30px;
+    padding-right: 25px;
+  }
+  .subheroson h4 {
+    font-size: 18px;
+  }
+  .subherosonP {
+    font-size: 10px;
+  }
+  .subherosonP1 {
+    font-size: 12px;
+  }
 
-    }
-    .subheroson h4 {
-      font-size: 18px;
-    }
-    .subherosonP {
-      font-size: 10px;
-    }
-    .subherosonP1 {
-      font-size: 12px;
-    }
-  
-    /* .mainimage {
+  /* .mainimage {
       max-width: 330px;
     } */
 
-    .mainimage1{
-        width: 275px;
-    }
-    .mainimage2{
-        width:343px ;
-    }
-    .mainimage3{
-        width:300px ;
-    }
-    .popimage1{
-        width: 43px;
-    }
-    .popimage2{
-        width: 129px;
-    }
-
-    .popimage {
-      max-width: 130px;
-    }
-    .subhero h3 {
-      font-size: 30px;
-      
-    }
-    .imageposition1 {
-      position: relative;
-    }
-    .absoimage1 {
-      position: absolute;
-      left: -18px;
-      top: 28px;
-    }
-    .absoimage2 {
-      position: absolute;
-      left: -40px;
-      top: 50px;
-    }
-    .imageposition2 {
-      position: relative;
-    }
-    .absoimage3 {
-      position: absolute;
-      top: -24px;
-      left: 30px;
-    }
-    .absoimage4 {
-      position: absolute;
-      right: 12px;
-      top: 12px;
-    }
-    .absoimage5 {
-      position: absolute;
-      top: 65px;
-      left: 30px;
-    }
-    .absoimage6 {
-      position: absolute;
-      left: 90px;
-      top: 154px;
-    }
-    .absoimage7 {
-      position: absolute;
-      right: 50px;
-      top: 84px;
-    }
-    .imageposition3 {
-      position: relative;
-    }
-    .absoimage8 {
-      position: absolute;
-      top: 70px;
-      right: -5px;
-    }
-    .absoimage9 {
-      position: absolute;
-      top: -20px;
-      left: 20px;
-    }
-    .absoimage10 {
-      position: absolute;
-      top: -70px;
-      right: 40px;
-    }
+  .mainimage1 {
+    width: 275px;
   }
-  @media screen and (max-width: 321px) {
-    /* .subheroson h4{
+  .mainimage2 {
+    width: 343px;
+  }
+  .mainimage3 {
+    width: 300px;
+  }
+  .popimage1 {
+    width: 43px;
+  }
+  .popimage2 {
+    width: 129px;
+  }
+
+  .popimage {
+    max-width: 130px;
+  }
+  .subhero h3 {
+    font-size: 30px;
+  }
+  .imageposition1 {
+    position: relative;
+  }
+  .absoimage1 {
+    position: absolute;
+    left: -18px;
+    top: 28px;
+  }
+  .absoimage2 {
+    position: absolute;
+    left: -40px;
+    top: 50px;
+  }
+  .imageposition2 {
+    position: relative;
+  }
+  .absoimage3 {
+    position: absolute;
+    top: -24px;
+    left: 30px;
+  }
+  .absoimage4 {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+  .absoimage5 {
+    position: absolute;
+    top: 65px;
+    left: 30px;
+  }
+  .absoimage6 {
+    position: absolute;
+    left: 90px;
+    top: 154px;
+  }
+  .absoimage7 {
+    position: absolute;
+    right: 50px;
+    top: 84px;
+  }
+  .imageposition3 {
+    position: relative;
+  }
+  .absoimage8 {
+    position: absolute;
+    top: 70px;
+    right: -5px;
+  }
+  .absoimage9 {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+  }
+  .absoimage10 {
+    position: absolute;
+    top: -70px;
+    right: 40px;
+  }
+}
+@media screen and (max-width: 321px) {
+  /* .subheroson h4{
         text-align: none;
 
     } */
-  
-    .cuz3 {
-      padding-top: 90px;
-    }
-    .subhero {
-      padding-top: 15px;
-    }
-    .subheroson {
-      display: block;
-      padding-left: 25px;
-      padding-right: 16px;
 
-    }
-    .subheroson h4 {
-      font-size: 18px;
-    }
-    .subherosonP {
-      font-size: 10px;
-    }
-    .subherosonP1 {
-      font-size: 12px;
-    }
-  
-    /* .mainimage {
+  .cuz3 {
+    padding-top: 90px;
+  }
+  .subhero {
+    padding-top: 15px;
+  }
+  .subheroson {
+    display: block;
+    padding-left: 25px;
+    padding-right: 16px;
+  }
+  .subheroson h4 {
+    font-size: 18px;
+  }
+  .subherosonP {
+    font-size: 10px;
+  }
+  .subherosonP1 {
+    font-size: 12px;
+  }
+
+  /* .mainimage {
       max-width: 330px;
     } */
 
-    .mainimage1{
-        width: 275px;
-    }
-    .mainimage2{
-        width:300px ;
-    }
-    .mainimage3{
-        width:300px ;
-    }
-    .popimage1{
-        width: 43px;
-    }
-    .popimage2{
-        width: 129px;
-    }
-
-    .popimage {
-      max-width: 130px;
-    }
-    .subhero h3 {
-      font-size: 30px;
-      
-    }
-    .imageposition1 {
-      position: relative;
-    }
-    .absoimage1 {
-      position: absolute;
-      left: -18px;
-      top: 28px;
-    }
-    .absoimage2 {
-      position: absolute;
-      left: -40px;
-      top: 50px;
-    }
-    .imageposition2 {
-      position: relative;
-    }
-    .absoimage3 {
-      position: absolute;
-      top: -28px;
-      left: 26px;
-    }
-    .absoimage4 {
-      position: absolute;
-      right: -2px;
-      top: 4px;
-    }
-    .absoimage5 {
-      position: absolute;
-      top: 55px;
-      left: 21px;
-    }
-    .absoimage6 {
-      position: absolute;
-      left: 80px;
-      top: 140px;
-    }
-    .absoimage7 {
-      position: absolute;
-      right: 28px;
-      top: 75px;
-    }
-    .imageposition3 {
-      position: relative;
-    }
-    .absoimage8 {
-      position: absolute;
-      top: 70px;
-      right: -38px;
-    }
-    .absoimage9 {
-      position: absolute;
-      top: -26px;
-      left: 20px;
-    }
-    .absoimage10 {
-      position: absolute;
-      top: -70px;
-      right: 1px;
-    }
+  .mainimage1 {
+    width: 275px;
   }
-  
+  .mainimage2 {
+    width: 300px;
+  }
+  .mainimage3 {
+    width: 300px;
+  }
+  .popimage1 {
+    width: 43px;
+  }
+  .popimage2 {
+    width: 129px;
+  }
+
+  .popimage {
+    max-width: 130px;
+  }
+  .subhero h3 {
+    font-size: 30px;
+  }
+  .imageposition1 {
+    position: relative;
+  }
+  .absoimage1 {
+    position: absolute;
+    left: -18px;
+    top: 28px;
+  }
+  .absoimage2 {
+    position: absolute;
+    left: -40px;
+    top: 50px;
+  }
+  .imageposition2 {
+    position: relative;
+  }
+  .absoimage3 {
+    position: absolute;
+    top: -28px;
+    left: 26px;
+  }
+  .absoimage4 {
+    position: absolute;
+    right: -2px;
+    top: 4px;
+  }
+  .absoimage5 {
+    position: absolute;
+    top: 55px;
+    left: 21px;
+  }
+  .absoimage6 {
+    position: absolute;
+    left: 80px;
+    top: 140px;
+  }
+  .absoimage7 {
+    position: absolute;
+    right: 28px;
+    top: 75px;
+  }
+  .imageposition3 {
+    position: relative;
+  }
+  .absoimage8 {
+    position: absolute;
+    top: 70px;
+    right: -38px;
+  }
+  .absoimage9 {
+    position: absolute;
+    top: -26px;
+    left: 20px;
+  }
+  .absoimage10 {
+    position: absolute;
+    top: -70px;
+    right: 1px;
+  }
+}
+.thirdsect {
+  position: relative;
+  margin-top: 120px;
+  padding-left: 180px;
+  padding-right: 180px;
+  background-image: url(./images/Rectangle234.png);
+}
+.thirdsect h3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "CircularStd";
+  padding-top: 85px;
+  color: white;
+}
+.thirdsect p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 34px;
+  padding-top: 14px;
+  color: white;
+  line-height: 20px;
+}
+.thirdsect button {
+  padding: 22px 26px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #70c217;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.thirdsect-son {
+  display: flex;
+  gap: 18px;
+}
+.thirdsect-son1 {
+  position: relative;
+  padding-bottom: 50px;
+}
+.thirdsect-image1 {
+  position: absolute;
+  top: -50px;
+  width: 430px;
+  z-index: 2;
+}
+.empty {
+  width: 430px;
+}
+.thirdsect-son2 {
+  position: relative;
+  padding-bottom: 105px;
+}
+.thirdsect-image2 {
+  position: absolute;
+  right: -10px;
+  width: 430px;
+}
+.vector1 {
+  width: 35px;
+  position: absolute;
+  top: 120px;
+}
+.vector2 {
+  position: absolute;
+  top: 180px;
+  width: 300px;
+}
+.empty1 {
+  width: 220px;
+}
+.vector3 {
+  width: 150px;
+  position: absolute;
+  top: -75px;
+  left: 12px;
+}
+.vector4{
+  width: 35px;
+  position: absolute;
+  right: 250px;
+  top: 12px;
+  z-index: 1;
+}
+.vector5{
+  width:180px ;
+  position: absolute;
+  right: -70px;
+  top: 22px;
+}
+.vector6{
+  width: 250px;
+  position: absolute;
+  right: -95px;
+  top: 170px;
+}
