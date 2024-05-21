@@ -1113,22 +1113,213 @@ header button {
   top: -75px;
   left: 12px;
 }
-.vector4{
+.vector4 {
   width: 35px;
   position: absolute;
   right: 250px;
   top: 12px;
   z-index: 1;
 }
-.vector5{
-  width:180px ;
+.vector5 {
+  width: 180px;
   position: absolute;
   right: -70px;
   top: 22px;
 }
-.vector6{
+.vector6 {
   width: 250px;
   position: absolute;
   right: -95px;
   top: 170px;
+}
+@media screen and (max-width: 1024px) {
+  .thirdsect {
+    position: relative;
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .thirdsect h3 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "CircularStd";
+    padding-top: 45px;
+  }
+  .thirdsect p {
+    font-size: 14px;
+    padding-bottom: 28px;
+    padding-top: 14px;
+
+    line-height: 20px;
+  }
+  .thirdsect button {
+    padding: 18px 22px;
+    font-size: 14px;
+  }
+  .thirdsect-son {
+    display: flex;
+    gap: 10px;
+  }
+  .thirdsect-son1 {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .thirdsect-image1 {
+    position: absolute;
+    top: -50px;
+    width: 320px;
+    z-index: 2;
+  }
+  .empty {
+    width: 380px;
+  }
+  .thirdsect-son2 {
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .thirdsect-image2 {
+    position: absolute;
+    right: -10px;
+    width: 320px;
+  }
+  .vector1 {
+    width: 30px;
+    position: absolute;
+    top: 60px;
+  }
+  .vector2 {
+    position: absolute;
+    top: 170px;
+    width: 170px;
+  }
+  .empty1 {
+    width: 170px;
+  }
+  .vector3 {
+    width: 100px;
+    position: absolute;
+    top: -75px;
+    left: 12px;
+  }
+  .vector4 {
+    width: 30px;
+    position: absolute;
+    right: 170px;
+    top: 6px;
+    z-index: 1;
+  }
+  .vector5 {
+    width: 120px;
+    position: absolute;
+    right: -50px;
+    top: 12px;
+  }
+  .vector6 {
+    width: 160px;
+    position: absolute;
+    right: -58px;
+    top: 115px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .thirdsect {
+    position: relative;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  .thirdsect h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "CircularStd";
+    padding-top: 30px;
+  }
+  .thirdsect p {
+    font-size: 12px;
+    padding-bottom: 24px;
+    padding-top: 12px;
+
+    line-height: 14px;
+  }
+  .thirdsect button {
+    padding: 18px 22px;
+    font-size: 14px;
+  }
+  .thirdsect-son {
+    display: flex;
+    gap: 10px;
+  }
+  .thirdsect-son1 {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .thirdsect-image1 {
+    position: absolute;
+    top: -40px;
+    width: 300px;
+    z-index: 2;
+  }
+  .empty {
+    width: 300px;
+  }
+  .thirdsect-son2 {
+    position: relative;
+    padding-bottom: 60px;
+  }
+  .thirdsect-image2 {
+    position: absolute;
+    /* right: -0px; */
+    width: 300px;
+    top: -14px;
+  }
+  .vector1 {
+    width: 30px;
+    position: absolute;
+    top: 60px;
+  }
+  .vector2 {
+    position: absolute;
+    top: 170px;
+    width: 140px;
+  }
+  .empty1 {
+    width: 130px;
+  }
+  .vector3 {
+    width: 100px;
+    position: absolute;
+    top: -48px;
+    left: 8px;
+  }
+  .vector4 {
+    width: 30px;
+    position: absolute;
+    right: 170px;
+    top: -8px;
+    z-index: 1;
+  }
+  .vector5 {
+    width: 90px;
+    position: absolute;
+    right: -30px;
+    top: 4px;
+  }
+  .vector6 {
+    width: 120px;
+    position: absolute;
+    right: -28px;
+    top: 82px;
+  }
+}
+
+@media screen and (max-width: ) {
+  .thirdsect {
+    display: none;
+  }
+  .mobile {
+    background-image: url(./images/Rectangle234m.png);
+  }
+  .mobile-son img {
+    width: 430px;
+  }
 }
