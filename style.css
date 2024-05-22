@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  max-width: 1440px;
+  margin: 0px auto;
+}
 @font-face {
   font-family: "CircularStd";
   src: url(./font/CircularStd-Bold.otf);
@@ -1041,6 +1045,8 @@ header button {
   padding-left: 180px;
   padding-right: 180px;
   background-image: url(./images/Rectangle234.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .thirdsect h3 {
   font-size: 32px;
@@ -1311,15 +1317,95 @@ header button {
     top: 82px;
   }
 }
+@media screen and (max-width: 768px) {
+  .thirdsect {
+    position: relative;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
 
-@media screen and (max-width: ) {
+  .thirdsect-son1 {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .thirdsect-image1 {
+    position: absolute;
+    top: -40px;
+    width: 250px;
+    z-index: 2;
+  }
+  .empty {
+    width: 250px;
+  }
+
+  .thirdsect-son2 {
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .thirdsect-image2 {
+    position: absolute;
+    /* right: -0px; */
+    width: 280px;
+    top: -14px;
+  }
+  .vector1 {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+  }
+  .vector2 {
+    position: absolute;
+    top: 120px;
+    width: 140px;
+  }
+  .empty1 {
+    width: 130px;
+  }
+  .vector3 {
+    width: 100px;
+    position: absolute;
+    top: -60px;
+    left: 8px;
+  }
+  .vector4 {
+    width: 30px;
+    position: absolute;
+    right: 170px;
+    top: -8px;
+    z-index: 1;
+  }
+  .vector5 {
+    width: 90px;
+    position: absolute;
+    right: -20px;
+    top: 2px;
+  }
+  .vector6 {
+    width: 120px;
+    position: absolute;
+    right: -18px;
+    top: 92px;
+  }
+}
+@media screen and (max-width: 430px ) {
   .thirdsect {
     display: none;
   }
   .mobile {
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-left: 16px;
+    padding-right: 16px;
     background-image: url(./images/Rectangle234m.png);
   }
   .mobile-son img {
-    width: 430px;
+    width: 330px;
+    
   }
+  .mobile-son1{
+    padding-top: 50px;
+  }
+
+  
 }
