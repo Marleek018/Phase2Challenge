@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   max-width: 1440px;
   margin: 0px auto;
+}
+.mobile{
+  display: none;
 }
 @font-face {
   font-family: "CircularStd";
@@ -198,7 +201,9 @@ header button {
   }
   header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   header nav {
     display: none;
@@ -231,6 +236,12 @@ header button {
   }
 }
 @media screen and (max-width: 431px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .hero {
     display: block;
     padding-top: 24px;
@@ -1388,24 +1399,247 @@ header button {
     top: 92px;
   }
 }
-@media screen and (max-width: 430px ) {
+@media screen and (max-width: 430px) {
   .thirdsect {
     display: none;
   }
   .mobile {
-  background-repeat: no-repeat;
-  background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 16px;
     padding-right: 16px;
     background-image: url(./images/Rectangle234m.png);
   }
-  .mobile-son img {
-    width: 330px;
-    
-  }
-  .mobile-son1{
-    padding-top: 50px;
+
+  .mobile-image {
+    width: 380px;
+    padding-top: 40px;
+    padding-right: 26px;
+    position: relative;
   }
 
-  
+  .mobile-son1 {
+    position: relative;
+    padding-top: 50px;
+  }
+  .mobile h3 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "CircularStd";
+    color: white;
+    line-height: 30px;
+  }
+  .mobile p {
+    font-size: 14px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 12px;
+  }
+  .mobile button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 16px 20px;
+    background-color: #70c217;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+  .mobile-vector1 {
+    width: 45px;
+    position: absolute;
+    bottom: 35%;
+    left: 28px;
+  }
+  .mobile-vector2 {
+    width: 230px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  .mobile-vector3 {
+    width: 150px;
+    position: absolute;
+    bottom: -8px;
+    left: 48px;
+  }
+  .mobile-son2 {
+    padding-top: 38px;
+  }
+  .mobile-image2 {
+    width: 380px;
+    padding-top: 60px;
+    padding-right: 26px;
+    position: relative;
+  }
+  .myrelative {
+    position: relative;
+  }
+  .mobile-vector4 {
+    position: absolute;
+    width: 36px;
+    top: 66px;
+    left: 70px;
+    z-index: 1;
+  }
+  .mobile-vector5 {
+    width: 190px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+  }
+  .mobile-vector6 {
+    position: absolute;
+    width: 210px;
+    bottom: 25%;
+    left: 30px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .thirdsect {
+    display: none;
+  }
+  .mobile-image {
+    width: 324px;
+    padding-top: 34px;
+    padding-right: 0px;
+    position: relative;
+    
+  }
+
+  .mobile-son1 {
+    position: relative;
+    padding-top: 50px;
+  }
+  .mobile h3 {
+    font-size: 24px;
+  }
+  .mobile p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .mobile-vector1 {
+    width: 45px;
+    position: absolute;
+    bottom: 35%;
+    left: 28px;
+  }
+  .mobile-vector2 {
+    width: 230px;
+    position: absolute;
+    bottom: 44px;
+    left: 38px;
+  }
+  .mobile-vector3 {
+    width: 150px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  .mobile-son2 {
+    padding-top: 38px;
+  }
+  .mobile-image2 {
+    padding-top: 60px;
+    padding-right: 30px;
+    position: relative;
+  }
+  .myrelative {
+    position: relative;
+  }
+  .mobile-vector4 {
+    position: absolute;
+    width: 36px;
+    top: 66px;
+    left: 70px;
+    z-index: 1;
+  }
+  .mobile-vector5 {
+    width: 190px;
+    position: absolute;
+    right: -10px;
+    top: 50px;
+  }
+  .mobile-vector6 {
+    position: absolute;
+    width: 210px;
+    bottom: 25%;
+    left: 5px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .thirdsect {
+    display: none;
+  }
+  .mobile-image {
+    width: 324px;
+    padding-top: 34px;
+    padding-right: 0px;
+    position: relative;
+    
+  }
+
+  .mobile-son1 {
+    position: relative;
+    padding-top: 50px;
+  }
+  .mobile h3 {
+    font-size: 24px;
+  }
+  .mobile p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .mobile-vector1 {
+    width: 45px;
+    position: absolute;
+    bottom: 35%;
+    left: 28px;
+  }
+  .mobile-vector2 {
+    width: 230px;
+    position: absolute;
+    bottom: 44px;
+    left: 38px;
+  }
+  .mobile-vector3 {
+    width: 150px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  .mobile-son2 {
+    padding-top: 38px;
+  }
+  .mobile-image2 {
+    padding-top: 60px;
+    padding-right: 30px;
+    position: relative;
+  }
+  .myrelative {
+    position: relative;
+  }
+  .mobile-vector4 {
+    position: absolute;
+    width: 36px;
+    top: 66px;
+    left: 70px;
+    z-index: 1;
+  }
+  .mobile-vector5 {
+    width: 190px;
+    position: absolute;
+    right: -10px;
+    top: 50px;
+  }
+  .mobile-vector6 {
+    position: absolute;
+    width: 210px;
+    bottom: 25%;
+    left: 5px;
+  }
 }
