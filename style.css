@@ -7,7 +7,7 @@ body {
   max-width: 1440px;
   margin: 0px auto;
 }
-.mobile{
+.mobile {
   display: none;
 }
 @font-face {
@@ -274,6 +274,9 @@ header button {
   }
 }
 @media screen and (max-width: 376px) {
+  body {
+    overflow-x: hidden;
+  }
   .hero .htext {
     font-size: 34px;
   }
@@ -1508,7 +1511,6 @@ header button {
     padding-top: 34px;
     padding-right: 0px;
     position: relative;
-    
   }
 
   .mobile-son1 {
@@ -1571,53 +1573,54 @@ header button {
     left: 5px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 321px) {
   .thirdsect {
     display: none;
   }
   .mobile-image {
-    width: 324px;
+    width: 290px;
     padding-top: 34px;
     padding-right: 0px;
     position: relative;
-    
   }
 
   .mobile-son1 {
     position: relative;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .mobile h3 {
     font-size: 24px;
   }
   .mobile p {
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 10px;
+    line-height: 14px;
   }
   .mobile-vector1 {
     width: 45px;
     position: absolute;
     bottom: 35%;
-    left: 28px;
+    left: 1px;
   }
   .mobile-vector2 {
-    width: 230px;
+    width: 220px;
     position: absolute;
-    bottom: 44px;
-    left: 38px;
+    bottom: 42px;
+    left: 10px;
   }
   .mobile-vector3 {
     width: 150px;
     position: absolute;
-    bottom: -4px;
-    left: 20px;
+    bottom: 1px;
+    left: 25px;
   }
   .mobile-son2 {
-    padding-top: 38px;
+    padding-top: 26px;
   }
   .mobile-image2 {
-    padding-top: 60px;
-    padding-right: 30px;
+    width: 290px;
+    padding-top: 40px;
+    padding-right: 20px;
     position: relative;
   }
   .myrelative {
@@ -1626,20 +1629,281 @@ header button {
   .mobile-vector4 {
     position: absolute;
     width: 36px;
-    top: 66px;
-    left: 70px;
+    top: 40px;
+    left: 50px;
     z-index: 1;
   }
   .mobile-vector5 {
-    width: 190px;
+    width: 140px;
     position: absolute;
-    right: -10px;
-    top: 50px;
+    right: -1px;
+    top: 45px;
   }
   .mobile-vector6 {
     position: absolute;
     width: 210px;
     bottom: 25%;
     left: 5px;
+  }
+}
+.fourthsect {
+  margin-top: 60px;
+}
+.fourthsect h3 {
+  text-align: center;
+  font-family: "CircularStd";
+  color: #272d4e;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 100px;
+}
+.fourthsect-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.fourthsect-image {
+  width: 620px;
+  z-index: 1;
+}
+.fourthsect-son {
+  position: relative;
+}
+.fourthsect-vector1 {
+  position: absolute;
+  left: 20%;
+  width: 110px;
+}
+.fourthsect-vector2 {
+  position: absolute;
+  width: 80px;
+  bottom: 30%;
+  left: 5%;
+}
+.fourthsect-vector3 {
+  width: 70px;
+  position: absolute;
+  bottom: 1%;
+  left: 12%;
+}
+.fourthsect-vector4 {
+  width: 90px;
+  position: absolute;
+  right: 25%;
+}
+.fourthsect-vector5 {
+  width: 100px;
+  position: absolute;
+  right: 15%;
+  bottom: 31%;
+}
+.fourthsect-vector6 {
+  width: 70px;
+  position: absolute;
+  right: 21%;
+  bottom: 0%;
+}
+.fourthsect-evector1 {
+  width: 230px;
+  position: absolute;
+  bottom: 1%;
+  left: 27%;
+}
+.fourthsect-evector2 {
+  position: absolute;
+  width: 230px;
+  right: 27%;
+  bottom: 35%;
+}
+@media screen and (max-width: 1024px) {
+  .fourthsect {
+    margin-top: 50px;
+  }
+  .fourthsect h3 {
+    padding-top: 80px;
+  }
+  .fourthsect-container {
+    padding-top: 60px;
+  }
+  .fourthsect-image {
+    width: 520px;
+    z-index: 1;
+  }
+  .fourthsect-son {
+    position: relative;
+  }
+  .fourthsect-vector1 {
+    position: absolute;
+    left: 15%;
+    width: 90px;
+  }
+  .fourthsect-vector2 {
+    position: absolute;
+    width: 60px;
+    bottom: 25%;
+    left: 5%;
+  }
+  .fourthsect-vector3 {
+    width: 60px;
+    position: absolute;
+    bottom: 1%;
+    left: 14%;
+  }
+  .fourthsect-vector4 {
+    width: 80px;
+    position: absolute;
+    right: 16%;
+  }
+  .fourthsect-vector5 {
+    width: 80px;
+    position: absolute;
+    right: 10%;
+    bottom: 28%;
+  }
+  .fourthsect-vector6 {
+    width: 60px;
+    position: absolute;
+    right: 16%;
+    bottom: 0%;
+  }
+  .fourthsect-evector1 {
+    width: 200px;
+    position: absolute;
+    bottom: 1%;
+    left: 22%;
+  }
+  .fourthsect-evector2 {
+    position: absolute;
+    width: 200px;
+    right: 22%;
+    bottom: 32%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .fourthsect {
+    margin-top: 50px;
+  }
+  .fourthsect h3 {
+    padding-top: 80px;
+  }
+  .fourthsect-container {
+    padding-top: 60px;
+  }
+  .fourthsect-image {
+    width: 500px;
+    z-index: 1;
+  }
+  .fourthsect-son {
+    position: relative;
+  }
+  .fourthsect-vector1 {
+    position: absolute;
+    left: 10%;
+    width: 80px;
+  }
+  .fourthsect-vector2 {
+    position: absolute;
+    width: 50px;
+    bottom: 25%;
+    left: 4%;
+  }
+  .fourthsect-vector3 {
+    width: 50px;
+    position: absolute;
+    bottom: 2%;
+    left: 9%;
+  }
+  .fourthsect-vector4 {
+    width: 60px;
+    position: absolute;
+    right: 14%;
+  }
+  .fourthsect-vector5 {
+    width: 70px;
+    position: absolute;
+    right: 7%;
+    bottom: 26%;
+  }
+  .fourthsect-vector6 {
+    width: 50px;
+    position: absolute;
+    right: 12%;
+    bottom: 0%;
+  }
+  .fourthsect-evector1 {
+    width: 180px;
+    position: absolute;
+    bottom: 2%;
+    left: 17%;
+  }
+  .fourthsect-evector2 {
+    position: absolute;
+    width: 180px;
+    right: 16%;
+    bottom: 28%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fourthsect {
+    margin-top: 50px;
+  }
+  .fourthsect h3 {
+    padding-top: 80px;
+  }
+  .fourthsect-container {
+    padding-top: 60px;
+  }
+  .fourthsect-image {
+    width: 500px;
+    z-index: 1;
+  }
+  .fourthsect-son {
+    position: relative;
+  }
+  .fourthsect-vector1 {
+    position: absolute;
+    left: 10%;
+    width: 80px;
+  }
+  .fourthsect-vector2 {
+    position: absolute;
+    width: 50px;
+    bottom: 25%;
+    left: 4%;
+  }
+  .fourthsect-vector3 {
+    width: 50px;
+    position: absolute;
+    bottom: 2%;
+    left: 9%;
+  }
+  .fourthsect-vector4 {
+    width: 60px;
+    position: absolute;
+    right: 14%;
+  }
+  .fourthsect-vector5 {
+    width: 70px;
+    position: absolute;
+    right: 7%;
+    bottom: 26%;
+  }
+  .fourthsect-vector6 {
+    width: 50px;
+    position: absolute;
+    right: 12%;
+    bottom: 0%;
+  }
+  .fourthsect-evector1 {
+    width: 180px;
+    position: absolute;
+    bottom: 2%;
+    left: 17%;
+  }
+  .fourthsect-evector2 {
+    position: absolute;
+    width: 180px;
+    right: 16%;
+    bottom: 28%;
   }
 }
