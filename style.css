@@ -6,6 +6,7 @@
 body {
   max-width: 1440px;
   margin: 0px auto;
+  /* overflow-x: hidden; */
 }
 .mobile {
   display: none;
@@ -1648,6 +1649,7 @@ header button {
 }
 .fourthsect {
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 .fourthsect h3 {
   text-align: center;
@@ -1862,17 +1864,17 @@ header button {
   }
   .fourthsect-vector1 {
     position: absolute;
-    left: 10%;
-    width: 80px;
+    left: 11%;
+    width: 60px;
   }
   .fourthsect-vector2 {
     position: absolute;
-    width: 50px;
+    width: 35px;
     bottom: 25%;
     left: 4%;
   }
   .fourthsect-vector3 {
-    width: 50px;
+    width: 40px;
     position: absolute;
     bottom: 2%;
     left: 9%;
@@ -1880,30 +1882,837 @@ header button {
   .fourthsect-vector4 {
     width: 60px;
     position: absolute;
-    right: 14%;
+    right: 15%;
   }
   .fourthsect-vector5 {
-    width: 70px;
+    width: 60px;
     position: absolute;
-    right: 7%;
+    right: 6%;
     bottom: 26%;
   }
   .fourthsect-vector6 {
-    width: 50px;
+    width: 40px;
     position: absolute;
-    right: 12%;
-    bottom: 0%;
+    right: 10%;
+    bottom: 1%;
   }
   .fourthsect-evector1 {
     width: 180px;
     position: absolute;
-    bottom: 2%;
+    bottom: 3%;
     left: 17%;
   }
   .fourthsect-evector2 {
     position: absolute;
     width: 180px;
-    right: 16%;
+    right: 15%;
     bottom: 28%;
   }
 }
+@media screen and (max-width: 430px) {
+  .fourthsect {
+    margin-top: 40px;
+  }
+  .fourthsect h3 {
+    font-size: 36px;
+    padding-top: 70px;
+  }
+  .fourthsect-container {
+    padding-top: 60px;
+  }
+  .fourthsect-image {
+    width: 350px;
+    z-index: 1;
+  }
+  .fourthsect-son {
+    position: relative;
+  }
+  .fourthsect-vector1 {
+    position: absolute;
+    left: 40%;
+    width: 45px;
+  }
+  .fourthsect-vector2 {
+    position: absolute;
+    width: 35px;
+    bottom: 50%;
+    left: 10%;
+  }
+  .fourthsect-vector3 {
+    width: 40px;
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+  }
+  .fourthsect-vector4 {
+    width: 50px;
+    position: absolute;
+    right: 15%;
+  }
+  .fourthsect-vector5 {
+    width: 50px;
+    position: absolute;
+    right: 2%;
+    bottom: 26%;
+  }
+  .fourthsect-vector6 {
+    width: 40px;
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+  }
+  .fourthsect-evector1 {
+    width: 180px;
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+  }
+  .fourthsect-evector2 {
+    position: absolute;
+    width: 160px;
+    right: 10%;
+    bottom: 35%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .fourthsect {
+    margin-top: 40px;
+  }
+  .fourthsect h3 {
+    font-size: 36px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .fourthsect-container {
+    padding-top: 60px;
+  }
+  .fourthsect-image {
+    width: 340px;
+    z-index: 1;
+  }
+  .fourthsect-son {
+    position: relative;
+  }
+  .fourthsect-vector1 {
+    position: absolute;
+    left: 44%;
+    width: 45px;
+  }
+  .fourthsect-vector2 {
+    position: absolute;
+    width: 45px;
+    bottom: 46%;
+    left: 8%;
+  }
+  .fourthsect-vector3 {
+    width: 40px;
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+  }
+  .fourthsect-vector4 {
+    width: 60px;
+    position: absolute;
+    right: 8%;
+  }
+  .fourthsect-vector5 {
+    width: 50px;
+    position: absolute;
+    right: 2%;
+    bottom: 26%;
+  }
+  .fourthsect-vector6 {
+    width: 40px;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+  }
+  .fourthsect-evector1 {
+    width: 130px;
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+  }
+  .fourthsect-evector2 {
+    position: absolute;
+    width: 130px;
+    right: 8%;
+    bottom: 35%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .fourthsect {
+    margin-top: 40px;
+  }
+  .fourthsect h3 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .fourthsect-container {
+    padding-top: 50px;
+  }
+  .fourthsect-image {
+    width: 320px;
+    z-index: 1;
+  }
+  .fourthsect-son {
+    position: relative;
+  }
+  .fourthsect-vector1 {
+    position: absolute;
+    left: 44%;
+    width: 45px;
+  }
+  .fourthsect-vector2 {
+    position: absolute;
+    width: 45px;
+    bottom: 48%;
+    left: 6%;
+  }
+  .fourthsect-vector3 {
+    width: 35px;
+    position: absolute;
+    bottom: -2px;
+    left: 4%;
+  }
+  .fourthsect-vector4 {
+    width: 60px;
+    position: absolute;
+    right: 4%;
+  }
+  .fourthsect-vector5 {
+    width: 35px;
+    position: absolute;
+    right: -4px;
+    bottom: 22%;
+    display: none;
+  }
+  .fourthsect-vector6 {
+    width: 35px;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+  }
+  .fourthsect-evector1 {
+    width: 130px;
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
+  }
+  .fourthsect-evector2 {
+    position: absolute;
+    width: 130px;
+    right: 8%;
+    bottom: 35%;
+  }
+}
+.finalsect {
+  margin-top: 120px;
+}
+.finalsect h3 {
+  font-family: "CircularStd";
+  font-size: 50px;
+  font-weight: 700;
+  color: #272d4e;
+  text-align: center;
+}
+.finalsect p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #94a2b3;
+  text-align: center;
+  padding-top: 22px;
+}
+.justflex {
+  display: flex;
+  justify-content: center;
+}
+.finalsect-image {
+  width: 78%;
+  z-index: 1;
+}
+.finalsect-container {
+  position: relative;
+}
+.finalsect-vector1 {
+  max-width: 66%;
+  position: absolute;
+  bottom: -45px;
+  left: 15%;
+}
+.finalsect-vector2 {
+  position: absolute;
+  width: 130px;
+  left: 4%;
+  bottom: -58px;
+}
+.finalsect-vector3 {
+  position: absolute;
+  left: 7%;
+  width: 30px;
+  bottom: 14%;
+}
+.finalsect-vector4 {
+  position: absolute;
+  width: 55px;
+  top: 50px;
+  left: 20px;
+}
+.finalsect-vector5 {
+  position: absolute;
+  right: 10%;
+  width: 40px;
+  top: 20%;
+}
+.finalsect-vector6 {
+  position: absolute;
+  width: 200px;
+  right: 7%;
+  bottom: 2%;
+}
+@media screen and (max-width: 1025px) {
+  .finalsect {
+    margin-top: 120px;
+  }
+  .finalsect h3 {
+    font-size: 46px;
+  }
+  .finalsect p {
+    font-size: 16px;
+  }
+
+  .finalsect-container {
+    position: relative;
+  }
+  .finalsect-vector1 {
+    max-width: 66%;
+    position: absolute;
+    bottom: -45px;
+    left: 15%;
+  }
+  .finalsect-vector2 {
+    position: absolute;
+    width: 130px;
+    left: 4%;
+    bottom: -58px;
+  }
+  .finalsect-vector3 {
+    position: absolute;
+    left: 7%;
+    width: 30px;
+    bottom: 14%;
+  }
+  .finalsect-vector4 {
+    position: absolute;
+    width: 55px;
+    top: 50px;
+    left: 20px;
+  }
+  .finalsect-vector5 {
+    position: absolute;
+    right: 8%;
+    width: 40px;
+    top: 20%;
+  }
+  .finalsect-vector6 {
+    position: absolute;
+    width: 140px;
+    right: 7%;
+    bottom: 2%;
+  }
+}
+@media screen and (max-width: 801px) {
+  .finalsect {
+    margin-top: 100px;
+  }
+  .finalsect h3 {
+    font-size: 46px;
+  }
+  .finalsect p {
+    font-size: 16px;
+  }
+
+  .finalsect-container {
+    position: relative;
+  }
+  .finalsect-vector1 {
+    max-width: 66%;
+    position: absolute;
+    bottom: -45px;
+    left: 15%;
+  }
+  .finalsect-vector2 {
+    position: absolute;
+    width: 100px;
+    left: 4%;
+    bottom: -44px;
+  }
+  .finalsect-vector3 {
+    position: absolute;
+    left: 7%;
+    width: 25px;
+    bottom: 14%;
+  }
+  .finalsect-vector4 {
+    position: absolute;
+    width: 40px;
+    top: 40px;
+    left: 16px;
+  }
+  .finalsect-vector5 {
+    position: absolute;
+    right: 8%;
+    width: 30px;
+    top: 16%;
+  }
+  .finalsect-vector6 {
+    position: absolute;
+    width: 100px;
+    right: 7%;
+    bottom: 2%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .finalsect {
+    margin-top: 90px;
+  }
+  .finalsect h3 {
+    font-size: 40px;
+  }
+  .finalsect p {
+    font-size: 14px;
+  }
+
+  .finalsect-container {
+    position: relative;
+  }
+  .finalsect-vector1 {
+    max-width: 66%;
+    position: absolute;
+    bottom: -45px;
+    left: 15%;
+  }
+  .finalsect-vector2 {
+    position: absolute;
+    width: 100px;
+    left: 4%;
+    bottom: -44px;
+  }
+  .finalsect-vector3 {
+    position: absolute;
+    left: 7%;
+    width: 25px;
+    bottom: 14%;
+  }
+  .finalsect-vector4 {
+    position: absolute;
+    width: 40px;
+    top: 40px;
+    left: 16px;
+  }
+  .finalsect-vector5 {
+    position: absolute;
+    right: 8%;
+    width: 30px;
+    top: 16%;
+  }
+  .finalsect-vector6 {
+    position: absolute;
+    width: 100px;
+    right: 7%;
+    bottom: 2%;
+  }
+}
+@media screen and (max-width: 431px) {
+  .finalsect {
+    margin-top: 70px;
+  }
+  .finalsect h3 {
+    font-size: 40px;
+  }
+  .finalsect p {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .finalsect-container {
+    position: relative;
+  }
+  .finalsect-vector1 {
+    max-width: 66%;
+    position: absolute;
+    bottom: -20px;
+    left: 15%;
+  }
+  .finalsect-vector2 {
+    position: absolute;
+    width: 100px;
+    left: 2%;
+    bottom: -42px;
+  }
+  .finalsect-vector3 {
+    position: absolute;
+    left: 7%;
+    width: 15px;
+    bottom: 26%;
+  }
+  .finalsect-vector4 {
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    left: 10px;
+  }
+  .finalsect-vector5 {
+    position: absolute;
+    right: 8%;
+    width: 20px;
+    top: 20%;
+  }
+  .finalsect-vector6 {
+    position: absolute;
+    width: 60px;
+    right: 5%;
+    bottom: 2%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .finalsect {
+    margin-top: 60px;
+  }
+  .finalsect h3 {
+    font-size: 36px;
+  }
+  .finalsect p {
+    font-size: 14px;
+    line-height: 18.2px;
+    padding-top: 10px;
+  }
+
+  .finalsect-container {
+    position: relative;
+  }
+  .finalsect-vector1 {
+    max-width: 66%;
+    position: absolute;
+    bottom: -20px;
+    left: 15%;
+  }
+  .finalsect-vector2 {
+    position: absolute;
+    width: 50px;
+    left: 4%;
+    bottom: -20px;
+  }
+  .finalsect-vector3 {
+    position: absolute;
+    left: 6%;
+    width: 8px;
+    bottom: 18%;
+  }
+  .finalsect-vector4 {
+    position: absolute;
+    width: 12px;
+    top: 20px;
+    left: 12px;
+  }
+  .finalsect-vector5 {
+    position: absolute;
+    right: 9%;
+    width: 10px;
+    top: 24%;
+  }
+  .finalsect-vector6 {
+    position: absolute;
+    width: 50px;
+    right: 7%;
+    bottom: 2%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .finalsect {
+    margin-top: 50px;
+  }
+  .finalsect h3 {
+    font-size: 32px;
+  }
+  .finalsect p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 10px;
+  }
+
+  .finalsect-container {
+    position: relative;
+  }
+  .finalsect-vector1 {
+    max-width: 66%;
+    position: absolute;
+    bottom: -20px;
+    left: 15%;
+  }
+  .finalsect-vector2 {
+    position: absolute;
+    width: 50px;
+    left: 4%;
+    bottom: -20px;
+  }
+  .finalsect-vector3 {
+    position: absolute;
+    left: 7%;
+    width: 8px;
+    bottom: 19%;
+  }
+  .finalsect-vector4 {
+    position: absolute;
+    width: 12px;
+    top: 16px;
+    left: 12px;
+  }
+  .finalsect-vector5 {
+    position: absolute;
+    right: 9%;
+    width: 10px;
+    top: 26%;
+  }
+  .finalsect-vector6 {
+    position: absolute;
+    width: 50px;
+    right: 7%;
+    bottom: 2%;
+  }
+}
+.prefooter {
+  background-color: #5f37ef;
+  padding-top: 74px;
+  padding-bottom: 74px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.prefooter h4 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+}
+.prefooter span {
+  font-weight: 700;
+}
+.prefooter button {
+  font-size: 18px;
+  font-family: Roboto;
+  color: white;
+  border-color: white;
+  border-radius: 60px;
+  padding: 22px 42px;
+  border-color: white;
+  background-color: #5f37ef;
+}
+.prefootervector {
+  position: absolute;
+  bottom: -16px;
+  right: 5%;
+  width: 60px;
+}
+@media screen and (max-width: 1024px) {
+  .prefooter {
+    background-color: #5f37ef;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .prefooter h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+  }
+  .prefooter span {
+    font-weight: 700;
+  }
+  .prefooter button {
+    font-size: 18px;
+    font-family: Roboto;
+    color: white;
+    border-color: white;
+    border-radius: 60px;
+    padding: 22px 42px;
+    border-color: white;
+    background-color: #5f37ef;
+  }
+  .prefootervector {
+    position: absolute;
+    bottom: -16px;
+    right: 5%;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 801px) {
+  .prefooter {
+    background-color: #5f37ef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .prefooter h4 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+  }
+  .prefooter span {
+    font-weight: 700;
+  }
+  .prefooter button {
+    font-size: 18px;
+    font-family: Roboto;
+    color: white;
+    border-color: white;
+    border-radius: 60px;
+    padding: 22px 42px;
+    border-color: white;
+    background-color: #5f37ef;
+  }
+  .prefootervector {
+    position: absolute;
+    bottom: -16px;
+    right: 5%;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .prefooter {
+    background-color: #5f37ef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .prefooter h4 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+  }
+  .prefooter span {
+    font-weight: 700;
+  }
+  .prefooter button {
+    font-size: 18px;
+    font-family: Roboto;
+    color: white;
+    border-color: white;
+    border-radius: 60px;
+    padding: 22px 42px;
+    border-color: white;
+    background-color: #5f37ef;
+  }
+  .prefootervector {
+    position: absolute;
+    bottom: -16px;
+    right: 5%;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .prefooter {
+    background-color: #5f37ef;
+    padding: 24px 16px;
+    z-index: 1;
+    position: relative;
+    display: block;
+    justify-content: center;
+  }
+  .prefooter h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 16px;
+  }
+  .prefooter span {
+    font-weight: 700;
+  }
+  .prefooter button {
+    font-size: 12px;
+    padding: 14px 24px;
+  }
+  .prefootervector {
+    position: absolute;
+    bottom: -16px;
+    right: 5%;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .prefooter {
+    background-color: #5f37ef;
+    padding: 24px 16px;
+    z-index: 1;
+    position: relative;
+    display: block;
+    justify-content: center;
+  }
+  .prefooter h4 {
+    font-size: 16px;
+
+    padding-bottom: 16px;
+  }
+
+  .prefootervector {
+    position: absolute;
+    bottom: -16px;
+    right: 5%;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .prefooter h4 {
+    font-size: 14px;
+  }
+
+  .prefootervector {
+    position: absolute;
+    bottom: -12px;
+    right: 5%;
+    width: 40px;
+  }
+}
+.footer {
+  background-color: #7854f7;
+  padding-top: 45px;
+  padding-bottom: 64px;
+}
+.footerson {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerson1 {
+  display: flex;
+  gap: 6px;
+}
+.footerson1 img {
+  width: 20px;
+}
+.footer-image-cont{
+  display: flex;
+  justify-content: center;
+  
+}
+
