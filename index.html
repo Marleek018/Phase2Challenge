@@ -21,11 +21,11 @@
 
         <nav>
           <ul>
-            <li>Sell</li>
-            <li>Marketplace</li>
-            <li>Community</li>
-            <li>Develop</li>
-            <li>Resources</li>
+            <a href=""><li>Sell</li></a>
+            <a href=""><li>Marketplace</li></a>
+            <a href=""><li>Community</li></a>
+            <a href=""><li>Develop</li></a>
+            <a href=""><li>Resources</li></a>
           </ul>
         </nav>
         <div class="logsign">
@@ -33,13 +33,25 @@
             <a class="extra" href=""><li>Login</li></a>
           </ul>
           <button>Get Started</button>
+
           <input class="searchbar" type="search" />
-          <!-- <ion-icon name="search-outline"></ion-icon> -->
+          <ion-icon class="searchlogo" name="search-outline"></ion-icon>
         </div>
-        <div>
-          <img class="hamburger" src="./images/hamburger.png" alt="IMAGE" />
+        <div class="hamburger">
+          <ion-icon class="close close-all" name="close"></ion-icon>
+          <img class="hamburger-open" id="hamburger" src="./images/hamburger.png" alt="IMAGE" />
         </div>
       </header>
+      <nav class="mobilenav mobile-pop" id="mobilenav">
+        <ul class="mobilenav-ul">
+          <a href=""><li>Sell</li></a>
+            <a href=""><li>Marketplace</li></a>
+            <a href=""><li>Community</li></a>
+            <a href=""><li>Develop</li></a>
+            <a href=""><li>Resources</li></a>
+            <a href=""><li>Login</li></a>
+        </ul>
+      </nav>
       <div class="hero">
         <div>
           <h2 class="htext">
@@ -55,7 +67,7 @@
           <div class="bord">
             <button class="startbut">Start a New Store</button>
             <a href="#">
-              <p>or <span>Customize & Extend ›</span></p></a
+              <p><span>or</span> Customize & Extend ›</p></a
             >
           </div>
         </div>
@@ -93,8 +105,8 @@
                 Add WooCommerce plugin to any WordPress site and <br />
                 set up a new store in minutes.
               </p>
-              <a href="">
-                <p class="subherosonP1">Ecommerce for Wordpress ›</p>
+              <a class="subherosonP1" href="">
+                <p >Ecommerce for Wordpress ›</p>
               </a>
             </div>
           </div>
@@ -139,8 +151,8 @@
                 From subscriptions to gym classes to luxury cars, <br />
                 WooCommerce is fully customizable.
               </p>
-              <a href="">
-                <p class="subherosonP1">Browse Extensions ›</p>
+              <a class="subherosonP1" href="">
+                <p >Browse Extensions ›</p>
               </a>
             </div>
           </div>
@@ -175,8 +187,8 @@
                 WooCommerce is one of the fastest-growing <br />
                 eCommerce communities.
               </p>
-              <a href="">
-                <p class="subherosonP1">Check our Forums ›</p>
+              <a class="subherosonP1" href="">
+                <p >Check our Forums ›</p>
               </a>
             </div>
           </div>
@@ -490,7 +502,7 @@
         <img src="./images/image25.png" alt="IMAGE" />
       </div>
     </section>
-
+<script src="script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

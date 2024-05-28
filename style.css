@@ -11,6 +11,39 @@ body {
 .mobile {
   display: none;
 }
+.mobile-pop {
+  display: none;
+}
+.mobilenav {
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+  padding-top: 30px;
+}
+.mobilenav-ul a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: white;
+  text-align: center;
+}
+.mobilenav-ul li {
+  padding-bottom: 20px;
+}
+.mobilenav-ul a:hover {
+  color: gray;
+  font-size: 18px;
+  transition: 1s;
+}
+.close {
+  color: red;
+}
+.close-all {
+  display: none;
+}
+
 @font-face {
   font-family: "CircularStd";
   src: url(./font/CircularStd-Bold.otf);
@@ -18,6 +51,7 @@ body {
 .hamburger {
   display: none;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -36,35 +70,54 @@ header {
 .logo2 {
   display: none;
 }
+
 header ul {
   display: flex;
-  list-style-type: none;
   gap: 38px;
-  color: #272d4e;
-  padding-top: 13px;
 }
+header ul a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #272d4e;
+  padding-top: 18px;
+}
+header ul a :hover {
+  font-size: 20px;
+  color: grey;
+}
+
 header div {
   display: flex;
-  gap: 34px;
+  gap: 24px;
 }
 .extra {
   text-decoration: none;
   color: #272d4e;
 }
 .searchbar {
-  width: 40%;
-  height: 80%;
-  margin-top: 5px;
+  width: 30%;
+  height: 60%;
+  margin-top: 15px;
+  border: none;
+}
+.logsign {
+  position: relative;
+}
+.searchlogo {
+  position: absolute;
+  right: 58px;
+  bottom: 11px;
 }
 header button {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 5px;
-  padding: 13px 14px;
+  padding: 6px 8px;
   border: none;
   background-color: #7854f7;
   color: white;
+  cursor: pointer;
 }
 .hero {
   display: flex;
@@ -93,17 +146,18 @@ header button {
   gap: 12px;
   padding-top: 31px;
 }
-.bord p {
+.bord a {
   font-size: 18px;
   font-family: Roboto;
-  font-weight: 500;
-  padding-top: 24px;
-  color: #94a2b3;
-}
-.bord span {
   font-weight: 700;
+  padding-top: 24px;
   color: #29aaf3;
   cursor: pointer;
+  text-decoration: none;
+}
+.bord span {
+  font-weight: 400;
+  color: #94a2b3;
 }
 .startbut {
   font-weight: 500;
@@ -114,6 +168,10 @@ header button {
   padding: 26px 62px;
   border-radius: 60px;
   border: none;
+  cursor: pointer;
+}
+.startbut :hover {
+  background-color: white;
 }
 @media screen and (max-width: 1024px) {
   header {
@@ -151,7 +209,7 @@ header button {
   }
   .bord p {
     font-size: 18px;
-    padding-top: 12px;
+    padding-top: 0px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -226,14 +284,16 @@ header button {
   }
   .startbut {
     font-size: 12px;
-    width: 180px;
-
+    width: 150px;
     padding: 4px;
     border-radius: 25px;
   }
+  .bord a {
+    padding-top: 10px;
+  }
   .bord p {
     font-size: 12px;
-    padding-top: 8px;
+    padding-top: 0px;
   }
 }
 @media screen and (max-width: 431px) {
@@ -345,6 +405,8 @@ header button {
   font-weight: 400;
   color: #94a2b3;
   text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .subherosonP1 {
   font-family: Roboto;
@@ -2711,76 +2773,145 @@ header button {
   font-weight: 400;
   font-size: 16px;
 }
-.footerson1 span{
+.footerson1 span {
   font-weight: 700;
 }
 .footerson1 img {
   width: 20px;
 }
-.footer-image-cont{
+.footer-image-cont {
   display: flex;
   justify-content: center;
   padding-top: 90px;
-  
 }
-.hrline-cont{
+.hrline-cont {
   display: flex;
   justify-content: center;
   padding-top: 48px;
   padding-bottom: 30px;
 }
-.hrline{
+.hrline {
   width: 90%;
-  color: #9A7DFF;
+  color: #9a7dff;
 }
-.footer-son2-cont{
-display: flex;
-justify-content: space-evenly;
+.footer-son2-cont {
+  display: flex;
+  justify-content: space-evenly;
 }
-.footer-son2 h3{
+.footer-son2 h3 {
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
-  color:#ffffff ;
+  color: #ffffff;
   line-height: 42px;
 }
-.footer-son2 a{
+.footer-son2 a {
   font-family: Roboto;
   font-weight: 400;
   font-size: 12px;
-  color:#ffffff ;
+  color: #ffffff;
   line-height: 22px;
   text-decoration: none;
 }
-.footer-son2 a :hover{
+.footer-son2 a :hover {
   font-size: 14px;
   color: rgb(243, 192, 98);
-
 }
-.footer-end{
-display: flex;
-justify-content: space-around;
-background-color: white;
-padding-top: 25px;
-padding-bottom: 25px;
-
+.footer-end {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.footer-end p{
+.footer-end p {
   font-family: Roboto;
   font-weight: 400;
-  font-size:12px ;
-  color: #272D4E;
+  font-size: 12px;
+  color: #272d4e;
 }
-.footer-end p a{
+.footer-end p a {
   font-family: Roboto;
   font-weight: 400;
-  font-size:12px ;
-  color: #272D4E;
+  font-size: 12px;
+  color: #272d4e;
 }
-
-.footer-social{
+.footer-social {
   display: flex;
   gap: 40px;
 }
+@media screen and (max-width: 1024px) {
+  .footer {
+    background-color: #7854f7;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
 
+  .footer-image-cont {
+    padding-top: 80px;
+  }
+  .hrline-cont {
+    padding-top: 40px;
+    padding-bottom: 36px;
+  }
+  .footer-end {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 801px) {
+  .footer {
+    background-color: #7854f7;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
 
+  .footer-image-cont {
+    padding-top: 60px;
+  }
+  .hrline-cont {
+    padding-top: 40px;
+    padding-bottom: 36px;
+  }
+  .footer-end {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer-social {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .footerson {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    column-gap: 15px;
+  }
+  .footer-son2-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-image-cont {
+    padding-top: 20px;
+  }
+  .hrline-cont {
+    padding-top: 30px;
+    padding-bottom: 16px;
+  }
+  .footer-end {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+  }
+  .footer-social {
+    gap: 20px;
+  }
+}
