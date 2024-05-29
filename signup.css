@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Yinmar";
+  src: url(./font/Yinmar-Regular.ttf);
+}
+.signup-sect {
+  display: flex;
+}
+.container {
+  border: 1px solid white;
+  box-shadow: 10px 10px 5px white;
+  padding-left: 120px;
+  width: 55%;
+  height: 100vh;
+  padding-top: 70px;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: white;
+}
+.signup-image {
+  width: 100%;
+  height: 100vh;
+}
+.language {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+.signup-sect-h31 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Alef";
+}
+.signup-meth {
+  padding-top: 26px;
+  display: flex;
+  gap: 55px;
+}
+.signup-meth a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Yinmar";
+  color: #00000099;
+  padding-top: 4px;
+}
+.box1 {
+  border: 1px solid #00000033;
+  padding: 12px 20px;
+  display: flex;
+  gap: 4px;
+  border-radius: 10px;
+}
+.signup-sect-h32 {
+  font-weight: 400;
+  font-size: 26px;
+  font-family: "Telex";
+  color: #00000063;
+  padding-left: 25%;
+  padding-top: 40px;
+}
+form {
+  padding-top: 40px;
+}
+form input {
+  font-family: "Telex";
+  display: block;
+  width: 66%;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 60px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 4px;
+}
+form button {
+  width: 66%;
+  /* padding-top: 8px;
+    padding-bottom: 8px; */
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Alef";
+  line-height: 40px;
+  color: white;
+  background-color: #bdc6d7;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-sect p {
+  font-family: "Telex";
+  font-weight: 400;
+  font-size: 20px;
+  color: #0000004d;
+  padding-top: 50px;
+}
+.textbox {
+  display: flex;
+  gap: 2px;
+}
+.textbox a {
+  text-decoration: none;
+}
+.textbox a :hover {
+  text-decoration: underline;
+  font-size: 24px;
+  color: grey;
+}
+@media screen and (max-width: 1025px) {
+  .container {
+    padding-left: 50px;
+    padding-top: 50px;
+    position: relative;
+  }
+  .language {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    font-size: 18px;
+  }
+
+  .signup-sect-h31 {
+    font-size: 32px;
+  }
+  .signup-meth {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .signup-meth a {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .box1 {
+    padding: 10px 16px;
+    display: flex;
+    gap: 4px;
+    border-radius: 10px;
+  }
+  .signup-sect-h32 {
+    font-size: 22px;
+    padding-left: 35%;
+    padding-top: 30px;
+  }
+  form {
+    padding-top: 40px;
+  }
+  form input {
+    width: 80%;
+
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 6px;
+  }
+  form button {
+    width: 80%;
+    /* padding-top: 8px;
+      padding-bottom: 8px; */
+  }
+}
+@media screen and (max-width: 769px) {
+  
+  .signup-sect {
+    display: block;
+  }
+  .container {
+    border: 1px solid white;
+    box-shadow: 10px 10px 5px white;
+    padding-left: 16px;
+    width: 55%;
+    height: 100vh;
+    padding-top: 70px;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+  }
+  .signup-image {
+    width: 0px;
+    height: 100vh;
+    display: none;
+
+  }
+  .language {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #c4c4c4;
+  }
+  
+  .signup-sect-h31 {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Alef";
+  }
+  .signup-meth {
+    padding-top: 26px;
+    display: flex;
+    gap: 55px;
+  }
+  .signup-meth a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Yinmar";
+    color: #00000099;
+    padding-top: 4px;
+  }
+  .box1 {
+    border: 1px solid #00000033;
+    padding: 12px 20px;
+    display: flex;
+    gap: 4px;
+    border-radius: 10px;
+  }
+  .signup-sect-h32 {
+    font-weight: 400;
+    font-size: 26px;
+    font-family: "Telex";
+    color: #00000063;
+    padding-left: 25%;
+    padding-top: 40px;
+  }
+  form {
+    padding-top: 40px;
+  }
+  form input {
+    font-family: "Telex";
+    display: block;
+    width: 66%;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 4px;
+  }
+  form button {
+    width: 66%;
+    /* padding-top: 8px;
+      padding-bottom: 8px; */
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Alef";
+    line-height: 40px;
+    color: white;
+    background-color: #bdc6d7;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-sect p {
+    font-family: "Telex";
+    font-weight: 400;
+    font-size: 20px;
+    color: #0000004d;
+    padding-top: 50px;
+  }
+  .textbox {
+    display: flex;
+    gap: 2px;
+  }
+  .textbox a {
+    text-decoration: none;
+  }
+  .textbox a :hover {
+    text-decoration: underline;
+    font-size: 24px;
+    color: grey;
+  }
+}
