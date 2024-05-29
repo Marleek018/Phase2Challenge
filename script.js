@@ -10,3 +10,13 @@ function burger() {
     
 }
 hamburger.addEventListener('click', burger)
+
+const fullName = document.querySelector('.fullName')
+const email = document.querySelector('.email')
+const password = document.querySelector('.password')
+const form = document.querySelector('#form')
+
+function formValidation(e) {
+    e.preventDefault();
+    
+}

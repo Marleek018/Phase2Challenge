@@ -72,6 +72,19 @@
 form {
   padding-top: 40px;
 }
+.form-control.success input {
+  border: 1px solid green;
+}
+.form-control.error input {
+  border: 1px solid red;
+}
+.form-control span {
+  font-size: 14px;
+}
+.form-control.error span {
+  color: red;
+}
+
 form input {
   font-family: "Telex";
   display: block;
@@ -171,68 +184,45 @@ form button {
   }
 }
 @media screen and (max-width: 769px) {
-  
   .signup-sect {
     display: block;
   }
   .container {
-    border: 1px solid white;
-    box-shadow: 10px 10px 5px white;
-    padding-left: 16px;
-    width: 55%;
+    padding-left: 40px;
+    width: 100%;
     height: 100vh;
-    padding-top: 70px;
+    padding-top: 50px;
     position: relative;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background-color: white;
   }
   .signup-image {
-    width: 0px;
-    height: 100vh;
     display: none;
-
   }
   .language {
     position: absolute;
     right: 20px;
     top: 15px;
     font-size: 20px;
-    font-family: Roboto;
-    font-weight: 400;
-    color: #c4c4c4;
   }
-  
+
   .signup-sect-h31 {
-    font-weight: 700;
     font-size: 36px;
-    font-family: "Alef";
   }
   .signup-meth {
-    padding-top: 26px;
-    display: flex;
-    gap: 55px;
+    padding-top: 20px;
+    gap: 30px;
   }
   .signup-meth a {
-    text-decoration: none;
     font-size: 17px;
-    font-weight: 400;
-    font-family: "Yinmar";
-    color: #00000099;
     padding-top: 4px;
   }
   .box1 {
-    border: 1px solid #00000033;
     padding: 12px 20px;
-    display: flex;
+
     gap: 4px;
     border-radius: 10px;
   }
   .signup-sect-h32 {
-    font-weight: 400;
     font-size: 26px;
-    font-family: "Telex";
-    color: #00000063;
     padding-left: 25%;
     padding-top: 40px;
   }
@@ -240,15 +230,11 @@ form button {
     padding-top: 40px;
   }
   form input {
-    font-family: "Telex";
-    display: block;
     width: 66%;
-    font-weight: 400;
+
     font-size: 24px;
     margin-bottom: 60px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+
     padding: 4px;
   }
   form button {
@@ -256,33 +242,183 @@ form button {
     /* padding-top: 8px;
       padding-bottom: 8px; */
     font-size: 26px;
-    font-weight: 700;
-    font-family: "Alef";
+
     line-height: 40px;
-    color: white;
-    background-color: #bdc6d7;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
   }
-  
+
   .signup-sect p {
-    font-family: "Telex";
-    font-weight: 400;
     font-size: 20px;
-    color: #0000004d;
     padding-top: 50px;
   }
   .textbox {
-    display: flex;
     gap: 2px;
   }
-  .textbox a {
-    text-decoration: none;
+}
+@media screen and (max-width: 431px) {
+  .container {
+    padding-left: 20px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    position: relative;
   }
-  .textbox a :hover {
-    text-decoration: underline;
+  .language {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 16px;
+  }
+
+  .signup-sect-h31 {
     font-size: 24px;
-    color: grey;
+  }
+  .signup-meth {
+    padding-top: 20px;
+    gap: 10px;
+  }
+  .signup-meth a {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+  .box1 {
+    padding: 8px 12px;
+
+    gap: 4px;
+  }
+  .signup-sect-h32 {
+    font-size: 18px;
+    padding-left: 40%;
+  }
+  form {
+    padding-top: 20px;
+  }
+  form input {
+    width: 90%;
+
+    font-size: 18px;
+    margin-bottom: 50px;
+
+    padding: 4px;
+  }
+  form button {
+    width: 90%;
+    /* padding-top: 8px;
+      padding-bottom: 8px; */
+    font-size: 18px;
+
+    line-height: 40px;
+  }
+
+  .signup-sect p {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .container {
+    padding-left: 16px;
+    padding-top: 80px;
+    position: relative;
+  }
+  .language {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 16px;
+  }
+
+  .signup-sect-h31 {
+    font-size: 22px;
+  }
+  .signup-meth a {
+    font-size: 12px;
+    padding-top: 6px;
+  }
+  .box1 {
+    padding: 8px 8px;
+
+    gap: 4px;
+  }
+  .signup-sect-h32 {
+    font-size: 16px;
+    padding-left: 38%;
+  }
+  form {
+    padding-top: 20px;
+  }
+  form input {
+    width: 90%;
+
+    font-size: 16px;
+    margin-bottom: 50px;
+
+    padding: 4px;
+  }
+  form button {
+    width: 90%;
+    /* padding-top: 8px;
+      padding-bottom: 8px; */
+    font-size: 18px;
+
+    line-height: 40px;
+  }
+
+  .signup-sect p {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .container {
+    padding-left: 16px;
+    padding-top: 80px;
+    position: relative;
+  }
+  .language {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 16px;
+  }
+
+  .signup-sect-h31 {
+    font-size: 22px;
+  }
+  .signup-meth a {
+    font-size: 10px;
+    padding-top: 6px;
+  }
+  .box1 {
+    padding: 8px 8px;
+
+    gap: 4px;
+  }
+  .signup-sect-h32 {
+    font-size: 16px;
+    padding-left: 38%;
+  }
+  form {
+    padding-top: 20px;
+  }
+  form input {
+    width: 90%;
+
+    font-size: 16px;
+    margin-bottom: 50px;
+
+    padding: 4px;
+  }
+  form button {
+    width: 90%;
+    /* padding-top: 8px;
+      padding-bottom: 8px; */
+    font-size: 18px;
+
+    line-height: 40px;
+  }
+
+  .signup-sect p {
+    font-size: 16px;
+    padding-top: 40px;
   }
 }

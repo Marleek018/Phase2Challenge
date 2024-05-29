@@ -40,22 +40,31 @@
         <h3 class="signup-sect-h31">Create Account</h3>
         <div class="signup-meth">
           <div class="box1">
-            <img src="./images/googleimage.png" alt="LOGO">
-          <a href=""> Sign up with Google</a>
-        </div>
-        <div class="box1">
-          <img src="./images/facebookimg.png" alt="LOGO">
-          <a href=""> Sign up with Facebook</a>
-        </div>
+            <img src="./images/googleimage.png" alt="LOGO" />
+            <a href=""> Sign up with Google</a>
+          </div>
+          <div class="box1">
+            <img src="./images/facebookimg.png" alt="LOGO" />
+            <a href=""> Sign up with Facebook</a>
+          </div>
         </div>
         <h3 class="signup-sect-h32">- OR -</h3>
-        <form
+        <form id="form"
           action="
     "
         >
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
-          <input type="password" placeholder="Password" />
+          <div class="form-control">
+            <input class="fullName"  type="text" placeholder="Full Name" />
+            <span></span>
+          </div>
+          <div class="form-control">
+            <input class="email" type="email" placeholder="Email Address" />
+            <span></span>
+          </div>
+          <div class="form-control">
+            <input class="password" type="password" placeholder="Password" />
+            <span></span>
+          </div>
           <button type="submit">Create Account</button>
         </form>
         <div class="textbox">
@@ -64,5 +73,6 @@
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
