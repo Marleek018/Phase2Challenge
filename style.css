@@ -2889,6 +2889,9 @@ header button {
     position: relative;
     z-index: 1;
   }
+  .footerson1{
+    padding-top: 6px;
+  }
   .footerson {
     display: block;
     margin-left: 30%;
@@ -2898,6 +2901,25 @@ header button {
   .footer-son2-cont {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .col-span-2{
+    grid-row: ;
+
+  }
+  .col-span-2{
+    
+    
+  }
+  .col-span-3{
+    
+    
+    
+  }
+  .col-span-4{
+    
+  }
+  .col-span-5{
+
   }
 
   .footer-image-cont {

@@ -34,6 +34,8 @@
   font-family: Roboto;
   font-weight: 400;
   color: #c4c4c4;
+  outline: none;
+  border:  0.5px solid white;
 }
 
 .signup-sect-h31 {
@@ -83,19 +85,22 @@ form {
 }
 .form-control.error span {
   color: red;
+  visibility: visible;
+}
+.form-control{
+  margin-bottom: 50px;
 }
 
-form input {
+.form-control input {
   font-family: "Telex";
   display: block;
   width: 66%;
   font-weight: 400;
   font-size: 24px;
-  margin-bottom: 60px;
   border-top: none;
   border-left: none;
   border-right: none;
-  padding: 4px;
+  padding: 10px;
 }
 form button {
   width: 66%;
@@ -170,12 +175,12 @@ form button {
   form {
     padding-top: 40px;
   }
-  form input {
+  .form-control input {
     width: 80%;
 
     font-size: 20px;
     margin-bottom: 50px;
-    padding: 6px;
+  
   }
   form button {
     width: 80%;
@@ -229,13 +234,12 @@ form button {
   form {
     padding-top: 40px;
   }
-  form input {
+  .form-control input {
     width: 66%;
 
     font-size: 24px;
     margin-bottom: 60px;
 
-    padding: 4px;
   }
   form button {
     width: 66%;
@@ -292,13 +296,13 @@ form button {
   form {
     padding-top: 20px;
   }
-  form input {
+  .form-control input {
     width: 90%;
 
     font-size: 18px;
-    margin-bottom: 50px;
+   
 
-    padding: 4px;
+   
   }
   form button {
     width: 90%;
@@ -346,13 +350,12 @@ form button {
   form {
     padding-top: 20px;
   }
-  form input {
+  .form-control input {
     width: 90%;
 
     font-size: 16px;
-    margin-bottom: 50px;
+    
 
-    padding: 4px;
   }
   form button {
     width: 90%;
@@ -400,13 +403,11 @@ form button {
   form {
     padding-top: 20px;
   }
-  form input {
+  .form-control input {
     width: 90%;
 
     font-size: 16px;
-    margin-bottom: 50px;
-
-    padding: 4px;
+   
   }
   form button {
     width: 90%;
