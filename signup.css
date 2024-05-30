@@ -82,6 +82,7 @@ form {
 }
 .form-control span {
   font-size: 14px;
+  font-family: Roboto;
 }
 .form-control.error span {
   color: red;
@@ -115,6 +116,14 @@ form button {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+}
+.form-logo{
+  position: relative;
+}
+.hide2show{
+  position: absolute;
+  right: 35%;
+  top: 26px;
 }
 
 .signup-sect p {
@@ -179,13 +188,21 @@ form button {
     width: 80%;
 
     font-size: 20px;
-    margin-bottom: 50px;
+  
   
   }
   form button {
     width: 80%;
     /* padding-top: 8px;
       padding-bottom: 8px; */
+  }
+  .form-logo{
+    position: relative;
+  }
+  .hide2show{
+    position: absolute;
+    right: 22%;
+    top: 24px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -238,7 +255,7 @@ form button {
     width: 66%;
 
     font-size: 24px;
-    margin-bottom: 60px;
+    
 
   }
   form button {
@@ -248,6 +265,14 @@ form button {
     font-size: 26px;
 
     line-height: 40px;
+  }
+  .form-logo{
+    position: relative;
+  }
+  .hide2show{
+    position: absolute;
+    right: 35%;
+    top: 24px;
   }
 
   .signup-sect p {
@@ -312,6 +337,14 @@ form button {
 
     line-height: 40px;
   }
+  .form-logo{
+    position: relative;
+  }
+  .hide2show{
+    position: absolute;
+    right: 12%;
+    top: 20px;
+  }
 
   .signup-sect p {
     font-size: 20px;
@@ -365,6 +398,14 @@ form button {
 
     line-height: 40px;
   }
+  .form-logo{
+    position: relative;
+  }
+  .hide2show{
+    position: absolute;
+    right: 12%;
+    top: 18px;
+  }
 
   .signup-sect p {
     font-size: 16px;
@@ -416,6 +457,14 @@ form button {
     font-size: 18px;
 
     line-height: 40px;
+  }
+  .form-logo{
+    position: relative;
+  }
+  .hide2show{
+    position: absolute;
+    right: 12%;
+    top: 18px;
   }
 
   .signup-sect p {
