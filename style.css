@@ -16,14 +16,15 @@ body {
   display: none;
 }
 .mobile-pop {
-  display: none;
+  display: ;
 }
 .mobilenav {
-  background-color: black;
+  background-color: rgb(3, 3, 3);
   width: 100%;
   height: 50vh;
   padding-top: 30px;
 }
+
 .mobilenav-ul a {
   list-style: none;
   text-decoration: none;
@@ -33,8 +34,18 @@ body {
   color: white;
   text-align: center;
 }
+/* .toSignUp {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 500;
+  font-family: Roboto;
+  color: white;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+} */
 .mobilenav-ul li {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .mobilenav-ul a:hover {
   color: gray;
@@ -2992,19 +3003,15 @@ header button {
     padding-top: 20px;
   }
   .footer-son2 h3 {
-   
     font-size: 12px;
-   
+
     line-height: 36px;
   }
   .footer-son2 a {
- 
     font-size: 11px;
-   
   }
   .footer-son2 a :hover {
     font-size: 12px;
-   
   }
 }
 @media screen and (max-width: 321px) {
@@ -3040,18 +3047,14 @@ header button {
     padding-top: 20px;
   }
   .footer-son2 h3 {
-   
     font-size: 12px;
-   
+
     line-height: 36px;
   }
   .footer-son2 a {
- 
     font-size: 11px;
-   
   }
   .footer-son2 a :hover {
     font-size: 12px;
-   
   }
 }
