@@ -9,5 +9,3 @@ function burger() {
   hambClose.classList.toggle("close-all");
 }
 hamburger.addEventListener("click", burger)
-
-

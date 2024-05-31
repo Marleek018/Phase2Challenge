@@ -12,6 +12,20 @@ body {
   margin: 0px auto;
   /* overflow-x: hidden; */
 }
+.topsection{
+  background: linear-gradient( rgba(229, 239, 255, 1),rgba(229, 239, 255, 0.26),rgba(229, 239, 255, 0));
+}
+.topVector{
+  position: absolute;
+  
+  right: 0px;
+  top: 0px;
+  width: 36%;
+}
+.featuredimage img{
+  z-index: 1;
+  position: relative;
+}
 .mobile {
   display: none;
 }
@@ -70,7 +84,7 @@ header {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
-  padding-left: 55px;
+  padding-left: 40px;
   padding-right: 55px;
 }
 .logo {
@@ -113,6 +127,7 @@ header div {
 }
 .logsign {
   position: relative;
+  z-index: 1;
 }
 .searchlogo {
   position: absolute;
@@ -133,8 +148,8 @@ header button {
 .hero {
   display: flex;
   padding-top: 80px;
-  padding-left: 200px;
-  gap: 100px;
+  padding-left: 220px;
+  gap: 50px;
 }
 .hero .htext {
   font-weight: 700;
@@ -186,24 +201,27 @@ header button {
 }
 @media screen and (max-width: 1024px) {
   header {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 30px;
     gap: 60px;
   }
   header ul {
     gap: 20px;
   }
+  header ul a {
+    padding-top: 10px;
+  }
   header div {
     gap: 10px;
   }
   header button {
     font-size: 12px;
-    padding: 4px;
+   
   }
   .hero {
     padding-top: 40px;
-    padding-left: 100px;
-    gap: 70px;
+    padding-left: 120px;
+    gap: 40px;
   }
   .hero .htext {
     font-weight: 600;
@@ -221,6 +239,18 @@ header button {
   .bord p {
     font-size: 18px;
     padding-top: 0px;
+  }
+  .bord a {
+    padding-top: 12px;
+  }
+  .searchlogo {
+    position: absolute;
+    right: 75px;
+    bottom: 7px;
+  }
+  .searchbar {
+    margin-top: 10px;
+    border: none;
   }
 }
 @media screen and (max-width: 800px) {
@@ -260,6 +290,9 @@ header button {
   }
 }
 @media screen and (max-width: 768px) {
+  .topVector{
+    display: none;
+  }
   .hamburger {
     display: block;
   }
@@ -339,7 +372,7 @@ header button {
   }
   .bord p {
     font-size: 11px;
-    padding-top: 12px;
+    padding-top: 6px;
   }
   .featuredimage {
     padding-top: 28px;
@@ -367,7 +400,7 @@ header button {
   }
   .bord p {
     font-size: 9px;
-    padding-top: 12px;
+    padding-top: 4px;
   }
   .featuredimage {
     padding-top: 24px;
@@ -384,6 +417,10 @@ header button {
 
   .bord {
     padding-top: 10px;
+  }
+  .bord p {
+    
+    padding-top: 2px;
   }
 }
 .cuz1 {
