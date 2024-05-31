@@ -145,6 +145,9 @@ header button {
   color: white;
   cursor: pointer;
 }
+.getstartedbtn{
+  padding-top: 15px;
+}
 .hero {
   display: flex;
   padding-top: 80px;
@@ -245,12 +248,15 @@ header button {
   }
   .searchlogo {
     position: absolute;
-    right: 75px;
-    bottom: 7px;
+    right: 42px;
+    bottom: 9px;
   }
   .searchbar {
     margin-top: 10px;
     border: none;
+  }
+  .getstartedbtn{
+    padding-top: 8px;
   }
 }
 @media screen and (max-width: 800px) {
